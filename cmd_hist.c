@@ -19,8 +19,8 @@ char *get_history_file(info_t *info)
 		return (NULL);
 	buf[0] = 0;
 	ourtop_strcpy(buf, dir);
-	ourtop_strcat(buf, "/");
-	ourtop_strcat(buf, HIST_FILE);
+	_strcat(buf, "/");
+	_strcat(buf, HIST_FILE);
 	return (buf);
 }
 
